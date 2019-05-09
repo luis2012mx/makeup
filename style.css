@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(254, 243, 239);
+}
+
+.titulo img {
+    width: 80%;
+    margin: 0 10% 0px 10%;
+    border-radius: 30px;
+    border-right-style: groove;
+}
+
+hr {
+    margin: 0 0 30px 0;
+    height: 20px;
+    background-color: #D81B60;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* Estilos de la barra de navegacion */
+ul {
+    width: 60%;
+    margin: 0 20% 30px 20%;
+    list-style-type: none;
+    padding: 0;
+    background-color: #5e6c67;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    width: 33%;
+    vertical-align: bottom;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: 0.5s;
+}
+
+li a:hover:not(.active) {
+    background-color: #F06292;
+    transform: scale(1.03, 1.03);
+}
+
+.active {
+    background-color: #EC407A;
+}
+
+
+
+.seccion {
+    margin-left: 100px;
+    width: 80%;
+    margin: 10px 10%;
+}
+
+h3 {
+    width: 60%;
+    margin: 80px 20% 20px 20%;
+    text-align: center;
+    background-color: #EC407A;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.seccion p {
+    float: left;
+    width: 30%;
+    text-align: justify;
+    background-color: rgba(210, 210, 210, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.seccion img {
+    width: 274px;
+    float: left;
+    padding-left: 20%;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#borde {
+    width: 14%;
+    margin: 0 3%;
+    float: left;
+}
+
+#portada {
+    width: 80%;
+    margin: 20px 10%;
+    border-radius: 20px;
+}
+
+
+/* Estilos de comentarios */
+
+.caja {
+    width: 80%;
+    margin: 10px 5%;
+    background-color: rgba(260, 260, 260, 0.5);
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.caja p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.caja img {
+    width: 60%;
+    margin: 30px 20%;
+    box-shadow: 8px 8px #C0C0C0;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.caja h2 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+textarea {
+    background-color: rgba(260, 260, 260, 0.7);
+    width: 90%;
+    height: 5%;
+    float: right;
+}
+
+.caja .avatar {
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.comentario {
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: darkslategrey;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+/* Estilos del boton */
+
+button{
+    background-color: #EC407A;
+    border-radius: 10px;
+    width: 15%;
+    margin: 20px 42.5%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.25s;
+}
+
+button a{
+    text-decoration: none;
+    color: azure;
+    font-size: 120%;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* Estilos del pie de pagina */
+.pie_de_pagina{
+    background-color: #EC407A;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 15px;
+}
+
+.pie_de_pagina img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+
