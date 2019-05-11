@@ -20,7 +20,7 @@ hr {
     background-color: #D81B60;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
@@ -172,7 +172,7 @@ table tr td {
 
 /* Estilos del boton */
 
-button{
+button {
     background-color: #EC407A;
     border-radius: 10px;
     width: 15%;
@@ -182,31 +182,61 @@ button{
     transition: 0.25s;
 }
 
-button a{
+button a {
     text-decoration: none;
     color: azure;
     font-size: 120%;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.1);
 }
 
 
-
-
 /* Estilos del pie de pagina */
-.pie_de_pagina{
+.pie_de_pagina {
     background-color: #EC407A;
     text-align: center;
     margin: 50px 0 0 0;
     padding: 15px;
 }
 
-.pie_de_pagina img{
+.pie_de_pagina img {
     width: 50px;
     border-radius: 10px;
 }
 
 
+/* Estilos del catalogo */
 
+.articulo {
+    width: 14%;
+    margin: 10px 0 20px 8%;
+    border: 2px solid #EC407A;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    float: left;
+    vertical-align: top;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.articulo:hover{
+    background-color: #5e6c67;
+    border: 2px solid white;
+    color: white;
+    transform: translateY(-10px);
+}
+
+.articulo img{
+    width: 80%;
+    margin: 10px 10%;
+    border-radius: 5px;
+}
+
+.articulo p{
+    font-weight: bold;
+    text-align: center;
+}
